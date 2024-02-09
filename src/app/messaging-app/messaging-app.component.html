@@ -1,0 +1,30 @@
+<p>messaging-app works!</p>
+
+<div class="messaging-app">
+
+    <div class="channel-list" [hidden]="channelSelected">
+        <div class="channel-list-header">
+            <span>Messages</span>
+        </div>
+        <button mat-button class="channel-button" *ngFor="let channel of channelList" (click)="onChannelSelect(channel.channelId)">
+            <mat-card class="channel-card">
+                <mat-card-header>
+                    <div mat-card-avatar class="channel-header-image"></div>
+                    <mat-card-title class="channel-name">{{ channel.channelName }}</mat-card-title>
+                    <mat-card-subtitle class="latest-message">Latest message</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </button>
+    </div>
+
+    <div class="channel-content" [hidden]="!channelSelected">
+        <div class="channel-content-header">
+            <span class="channel-content-name">Channel Name</span>
+        </div>
+        
+        <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="channelSelected = false">
+            <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+    </div>
+
+</div>

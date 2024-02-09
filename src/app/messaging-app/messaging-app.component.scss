@@ -1,0 +1,52 @@
+.messaging-app {
+    width: 412px;
+    height: 915px;
+}
+
+.channel-list {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.channel-content {
+    width: 100%;
+    height: 100%;
+    background-color: lightpink;
+}
+
+.channel-list-header {
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: left;
+}
+
+.channel-button {
+    margin: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.channel-card {
+    text-align: left;
+}
+  
+.channel-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.latest-message {
+    height: 20px;
+    width: 280px;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.channel-content-header {
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: left;
+}
+
