@@ -1,0 +1,26 @@
+.phone-screen {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 390px;
+    height: 780px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    margin: auto;
+    vertical-align: middle;
+
+    box-shadow: 2px 0px 20px rgb(35, 65, 75) inset;
+}
+
+.phone-navigation {
+    position: relative;
+    top: -60px;
+    left: 115px;
+}
+
+.navigation-buttons {
+    margin: 5px;
+}

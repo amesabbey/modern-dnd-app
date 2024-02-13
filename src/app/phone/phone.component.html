@@ -3,12 +3,7 @@
     <div class="volume-increase"></div>
     <div class="volume-decrease"></div>
     <div class="phone-body">
-        <div class="phone-screen">
-            <div class="phone-navigation">
-                <button mat-icon-button (click)="navigateGoBack()" class="navigation-buttons go-back"><mat-icon>arrow_backward</mat-icon></button>
-                <button mat-icon-button (click)="navigateHome()" class="navigation-buttons home"><mat-icon>radio_button_unchecked</mat-icon></button>
-                <button mat-icon-button (click)="navigateSwitchApps()" class="navigation-buttons switch-apps"><mat-icon>menu</mat-icon></button>
-            </div>
-        </div>
+        <phone-screen></phone-screen>
+        <mat-icon aria-hidden="true" class="camera">lens</mat-icon>
     </div>
 </div>
